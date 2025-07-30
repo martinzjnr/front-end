@@ -249,7 +249,7 @@ body {
     top: 20px;
     left: -100%;
     width: 100%;
-    height: calc(100vh - 100px);
+    height: 100vh;
     background: rgb(0, 0, 0);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
