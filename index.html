@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading Platform Navigation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="nav-logo">
+                <div class="logo-symbol">
+                    <!-- <span class="logo-hex"></span>
+                    <i class="fas fa-chart-line logo-icon"></i> -->
+                </div>
+            </a>
+
+            <div class="nav-mobile-actions">
+                <div class="nav-mobile-cta">
+                    <a href="/login" class="nav-cta-btn login-btn">
+                        <i class="fas fa-user"></i>
+                        <span>Login</span>
+                    </a>
+                    <button class="hamburger" aria-label="Menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <a href="/register" class="nav-cta-btn register-btn">
+                        <i class="fas fa-user-plus"></i>
+                        <span>Register</span>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="nav-menu">
+                <div class="nav-links">
+                    <a href="/home" class="nav-link">
+                        <i class="fas fa-home"></i>
+                        <span>Home</span>
+                    </a>
+                    <a href="/investment-plans" class="nav-link">
+                        <i class="fas fa-chart-pie"></i>
+                        <span>Investment Plans</span>
+                    </a>
+                    <a href="/how-it-works" class="nav-link">
+                        <i class="fas fa-cogs"></i>
+                        <span>How It Works</span>
+                    </a>
+                    <a href="/affiliate" class="nav-link">
+                        <i class="fas fa-users"></i>
+                        <span>Affiliate Program</span>
+                    </a>
+                    <a href="/about" class="nav-link">
+                        <i class="fas fa-info-circle"></i>
+                        <span>About Us</span>
+                    </a>
+                    <a href="/faq" class="nav-link">
+                        <i class="fas fa-question-circle"></i>
+                        <span>FAQs</span>
+                    </a>
+                    <a href="/contact" class="nav-link">
+                        <i class="fas fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                    <a href="/testimonies" class="nav-link">
+                        <i class="fas fa-star"></i>
+                        <span>Testimonies</span>
+                    </a>
+                    <a href="/live-earnings" class="nav-link">
+                        <i class="fas fa-chart-bar"></i>
+                        <span>Live Earnings</span>
+                    </a>
+                    <a href="/crypto-assets" class="nav-link">
+                        <i class="fab fa-bitcoin"></i>
+                        <span>Crypto Assets</span>
+                    </a>
+                </div>
+                <div class="nav-cta-desktop">
+                    <a href="/login" class="nav-cta-btn login-btn">
+                        <i class="fas fa-user"></i>
+                        <span>Login</span>
+                    </a>
+                    <a href="/register" class="nav-cta-btn register-btn">
+                        <i class="fas fa-user-plus"></i>
+                        <span>Register</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- translaort -->
+    <div id="epg-google-translate" class="epg-translate-widget">
+        <div id="google_translate_element"></div>
+    </div>
+
+
+    <!-- button fixed -->
+
+
+    <div class="epg-mobile-cta-container" id="epgMobileCta">
+        <div class="epg-mobile-cta-blur"></div>
+        <div class="epg-mobile-cta-wrapper">
+            <a href="/register" class="epg-mobile-cta-btn epg-login-btn">
+                <div class="epg-btn-content">
+                    <i class="fas fa-user"></i>
+                    <span>Login</span>
+                </div>
+                <div class="epg-btn-shine"></div>
+            </a>
+            <a href="/register" class="epg-mobile-cta-btn epg-register-btn">
+                <div class="epg-btn-content">
+                    <i class="fas fa-user-plus"></i>
+                    <span>Register</span>
+                </div>
+                <div class="epg-btn-shine"></div>
+                <div class="epg-btn-particles"></div>
+            </a>
+        </div>
+    </div>
+
+
+
+    <!-- logo sceting -->
+    <section class="logo-section">
+        <div class="logo-container">
+            <div class="logo-wrapper">
+                <div class="hexagon-logo">
+                    <svg viewBox="0 0 100 100">
+                        <polygon class="hex-bg" points="50 0, 93.3 25, 93.3 75, 50 100, 6.7 75, 6.7 25"></polygon>
+                        <path class="chart-icon" d="M30 70 L45 50 L60 65 L75 35"></path>
+                        <circle class="chart-point" cx="30" cy="70" r="3"></circle>
+                        <circle class="chart-point" cx="45" cy="50" r="3"></circle>
+                        <circle class="chart-point" cx="60" cy="65" r="3"></circle>
+                        <circle class="chart-point" cx="75" cy="35" r="3"></circle>
+                    </svg>
+                </div>
+                <div class="company-text">
+                    <h1>Elivate Prime Group</h1>
+                    <p>Advanced Trading Solutions</p>
+                </div>
+            </div>
+            <div class="cta-buttons">
+                <button class="cta-button open-account">
+                    <span class="icon">👤</span>
+                    <span class="text">Open Account</span>
+                </button>
+                <button class="cta-button start-trading">
+                    <span class="icon">📈</span>
+                    <span class="text">Start Trading</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="epg-logo-section">
+        <!-- Add this inside your epg-luxury-section, after the logo container -->
+        <div class="epg-market-prices">
+            <div class="epg-price-grid">
+                <div class="epg-price-card" data-symbol="bitcoin">
+                    <div class="epg-coin-icon"><i class="fab fa-bitcoin"></i></div>
+                    <div class="epg-coin-details">
+                        <span class="epg-coin-name">Bitcoin</span>
+                        <span class="epg-coin-price">Loading...</span>
+                        <span class="epg-price-change">0.00%</span>
+                    </div>
+                </div>
+                <div class="epg-price-card" data-symbol="ethereum">
+                    <div class="epg-coin-icon"><i class="fab fa-ethereum"></i></div>
+                    <div class="epg-coin-details">
+                        <span class="epg-coin-name">Ethereum</span>
+                        <span class="epg-coin-price">Loading...</span>
+                        <span class="epg-price-change">0.00%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="epg-logo-container">
+            <div class="epg-background-effects">
+                <div class="epg-glow-orb epg-orb1"></div>
+                <div class="epg-glow-orb epg-orb2"></div>
+                <div class="epg-glow-orb epg-orb3"></div>
+                <div class="epg-grid-overlay"></div>
+                <div class="epg-particles-container" id="epg-particles"></div>
+            </div>
+
+            <div class="epg-logo-content">
+                <div class="epg-logo-wrapper">
+                    <div class="epg-hexagon-logo">
+                        <div class="epg-hex-container">
+                            <svg viewBox="0 0 100 100" class="epg-main-hex">
+                                <defs>
+                                    <linearGradient id="epg-hexGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#34d399" />
+                                        <stop offset="100%" style="stop-color:#3b82f6" />
+                                    </linearGradient>
+                                    <filter id="epg-glow">
+                                        <feGaussianBlur stdDeviation="2" result="coloredBlur" />
+                                        <feMerge>
+                                            <feMergeNode in="coloredBlur" />
+                                            <feMergeNode in="SourceGraphic" />
+                                        </feMerge>
+                                    </filter>
+                                </defs>
+                                <polygon class="epg-hex-bg" points="50 0, 93.3 25, 93.3 75, 50 100, 6.7 75, 6.7 25">
+                                </polygon>
+                                <path class="epg-chart-icon" d="M30 70 L45 50 L60 65 L75 35"></path>
+                                <circle class="epg-chart-point" cx="30" cy="70" r="3"></circle>
+                                <circle class="epg-chart-point" cx="45" cy="50" r="3"></circle>
+                                <circle class="epg-chart-point" cx="60" cy="65" r="3"></circle>
+                                <circle class="epg-chart-point" cx="75" cy="35" r="3"></circle>
+                            </svg>
+                            <div class="epg-hex-ripple"></div>
+                        </div>
+                    </div>
+
+                    <div class="epg-company-info">
+                        <div class="epg-company-text">
+                            <!-- <h1 class="epg-title">Elivate Prime Group</h1> -->
+                            <p class="epg-tagline">Advanced Trading Solutions</p>
+                            <p class="epg-description">Experience the future of trading with our cutting-edge platform
+                            </p>
+                        </div>
+
+                        <div class="epg-features-list">
+                            <div class="epg-feature-item">
+                                <span class="epg-feature-icon">🔒</span>
+                                <span class="epg-feature-text">Secure Trading</span>
+                            </div>
+                            <div class="epg-feature-item">
+                                <span class="epg-feature-icon">⚡</span>
+                                <span class="epg-feature-text">Lightning Fast</span>
+                            </div>
+                            <div class="epg-feature-item">
+                                <span class="epg-feature-icon">📊</span>
+                                <span class="epg-feature-text">Advanced Analytics</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="epg-cta-section">
+                    <div class="epg-cta-buttons">
+                        <button class="epg-cta-button epg-open-account">
+                            <div class="epg-button-content">
+                                <span class="epg-icon">👤</span>
+                                <span class="epg-text">Open Account</span>
+                            </div>
+                            <div class="epg-button-effect"></div>
+                        </button>
+                        <button class="epg-cta-button epg-start-trading">
+                            <div class="epg-button-content">
+                                <span class="epg-icon">📈</span>
+                                <span class="epg-text">Start Trading</span>
+                            </div>
+                            <div class="epg-button-effect"></div>
+                        </button>
+                    </div>
+
+                    <div class="epg-trust-indicators">
+                        <div class="epg-trust-item">
+                            <span class="epg-trust-icon">🌟</span>
+                            <span class="epg-trust-text">24/7 Support</span>
+                        </div>
+                        <div class="epg-trust-item">
+                            <span class="epg-trust-icon">🛡️</span>
+                            <span class="epg-trust-text">Regulated Platform</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="epg-trading-highlights">
+            <div class="epg-highlight-card">
+                <div class="epg-card-icon">💎</div>
+                <div class="epg-card-content">
+                    <h3 class="epg-card-title">Premium Features</h3>
+                    <p class="epg-card-description">Access advanced trading tools</p>
+                </div>
+            </div>
+            <div class="epg-highlight-card">
+                <div class="epg-card-icon">🚀</div>
+                <div class="epg-card-content">
+                    <h3 class="epg-card-title">Quick Setup</h3>
+                    <p class="epg-card-description">Start trading in minutes</p>
+                </div>
+            </div>
+            <div class="epg-highlight-card">
+                <div class="epg-card-icon">🌐</div>
+                <div class="epg-card-content">
+                    <h3 class="epg-card-title">Global Markets</h3>
+                    <p class="epg-card-description">Trade worldwide assets</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Add this section after your luxury section -->
+    <section class="epg-features-section">
+        <div class="epg-features-container">
+            <div class="epg-features-header">
+                <h2 class="epg-features-title">Why Choose Elivate Prime</h2>
+                <p class="epg-features-subtitle">Experience the next generation of trading excellence</p>
+            </div>
+
+            <div class="epg-features-grid">
+                <div class="epg-feature-card" data-tilt>
+                    <div class="epg-feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                        <div class="epg-icon-glow"></div>
+                    </div>
+                    <h3>Advanced Security</h3>
+                    <p>State-of-the-art encryption and multi-layer security protocols to protect your assets</p>
+                    <div class="epg-feature-decoration"></div>
+                </div>
+
+                <div class="epg-feature-card" data-tilt>
+                    <div class="epg-feature-icon">
+                        <i class="fas fa-bolt"></i>
+                        <div class="epg-icon-glow"></div>
+                    </div>
+                    <h3>Lightning Fast</h3>
+                    <p>Execute trades at unprecedented speeds with our optimized trading engine</p>
+                    <div class="epg-feature-decoration"></div>
+                </div>
+
+                <div class="epg-feature-card" data-tilt>
+                    <div class="epg-feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                        <div class="epg-icon-glow"></div>
+                    </div>
+                    <h3>Advanced Analytics</h3>
+                    <p>Powerful trading tools and real-time market analysis at your fingertips</p>
+                    <div class="epg-feature-decoration"></div>
+                </div>
+
+                <div class="epg-feature-card" data-tilt>
+                    <div class="epg-feature-icon">
+                        <i class="fas fa-headset"></i>
+                        <div class="epg-icon-glow"></div>
+                    </div>
+                    <h3>24/7 Support</h3>
+                    <p>Expert assistance available round the clock to help you with any queries</p>
+                    <div class="epg-feature-decoration"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Add this section after your features section -->
+    <section class="epg-warning-section">
+        <div class="epg-warning-container">
+            <div class="epg-warning-header">
+                <div class="epg-warning-icon-wrapper">
+                    <i class="fas fa-shield-alt epg-warning-icon"></i>
+                    <div class="epg-warning-pulse"></div>
+                </div>
+                <h2 class="epg-warning-title">Stay Safe from Scams</h2>
+            </div>
+
+            <div class="epg-warning-grid">
+                <div class="epg-warning-card">
+                    <div class="epg-warning-card-icon">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <h3>Verify Our Identity</h3>
+                    <p>Always check our official domain: <span class="epg-highlight">www.elivateprime.com</span></p>
+                    <div class="epg-warning-alert">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <span>Never trust similar-looking domains</span>
+                    </div>
+                </div>
+
+                <div class="epg-warning-card">
+                    <div class="epg-warning-card-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Secure Communication</h3>
+                    <p>We never ask for your password or private keys</p>
+                    <div class="epg-warning-alert">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <span>Ignore requests for sensitive data</span>
+                    </div>
+                </div>
+
+                <div class="epg-warning-card">
+                    <div class="epg-warning-card-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Official Channels Only</h3>
+                    <p>We only communicate through verified channels</p>
+                    <div class="epg-warning-alert">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <span>Beware of impersonators</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="epg-warning-footer">
+                <div class="epg-report-button">
+                    <i class="fas fa-flag"></i>
+                    <span>Report Suspicious Activity</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+<section class="epg_inv_x8k2_plans_section">
+    <div class="epg_inv_x8k2_plans_container">
+        <h2 class="epg_inv_x8k2_section_title">Investment Plans</h2>
+        <p class="epg_inv_x8k2_section_subtitle">Choose Your Path to Financial Growth</p>
+
+        <div class="epg_inv_x8k2_plans_grid">
+            <!-- Basic Plan -->
+            <div class="epg_inv_x8k2_plan_card" data-plan="basic">
+                <div class="epg_inv_x8k2_plan_header">
+                    <span class="epg_inv_x8k2_plan_badge">Basic plan</span>
+                    <h3 class="epg_inv_x8k2_plan_title">Starter Growth</h3>
+                    <div class="epg_inv_x8k2_plan_range">
+                        <span class="epg_inv_x8k2_range_label">Investment Range</span>
+                        <span class="epg_inv_x8k2_range_value">$100 - $499</span>
+                    </div>
+                </div>
+                <div class="epg_inv_x8k2_plan_features">
+                    <div class="epg_inv_x8k2_feature">
+                        <i class="fas fa-chart-line"></i>
+                        <span>Daily Profit: 20%</span>
+                    </div>
+                    <div class="epg_inv_x8k2_feature">
+                        <i class="fas fa-clock"></i>
+                        <span>Duration: 24 hours</span>
+                    </div>
+                    <div class="epg_inv_x8k2_feature">
+                        <i class="fas fa-gift"></i>
+                        <span>Referral Bonus: 25%</span>
+                    </div>
+                </div>
+                <div class="epg_inv_x8k2_calculator">
+                    <input type="number" class="epg_inv_x8k2_calc_input" placeholder="Enter amount" min="100" max="1000">
+                    <div class="epg_inv_x8k2_calc_result">
+                        <span>Potential Profit:</span>
+                        <span class="epg_inv_x8k2_profit_value">$0.00</span>
+                    </div>
+                </div>
+                <button class="epg_inv_x8k2_invest_btn">Start Investment</button>
+            </div>
+
+            <!-- Standard Plan -->
+            <div class="epg_inv_x8k2_plan_card" data-plan="standard">
+                <div class="epg_inv_x8k2_plan_header">
+                    <span class="epg_inv_x8k2_plan_badge">Standard plan</span>
+                    <h3 class="epg_inv_x8k2_plan_title">Advanced Trading</h3>
+                    <div class="epg_inv_x8k2_plan_range">
+                        <span class="epg_inv_x8k2_range_label">Investment Range</span>
+                        <span class="epg_inv_x8k2_range_value">$500 - $2,999</span>
+                    </div>
+                </div>
+                <div class="epg_inv_x8k2_plan_features">
+                    <div class="epg_inv_x8k2_feature">
+                        <i class="fas fa-chart-line"></i>
+                        <span>Daily Profit: 30%</span>
+                    </div>
+                    <div class="epg_inv_x8k2_feature">
+                        <i class="fas fa-clock"></i>
+                        <span>Duration: 24 hours</span>
+                    </div>
+                    <div class="epg_inv_x8k2_feature">
+                        <i class="fas fa-gift"></i>
+                        <span>Referral Bonus: 35%</span>
+                    </div>
+                </div>
+                <div class="epg_inv_x8k2_calculator">
+                    <input type="number" class="epg_inv_x8k2_calc_input" placeholder="Enter amount" min="1000" max="5000">
+                    <div class="epg_inv_x8k2_calc_result">
+                        <span>Potential Profit:</span>
+                        <span class="epg_inv_x8k2_profit_value">$0.00</span>
+                    </div>
+                </div>
+                <button class="epg_inv_x8k2_invest_btn">Start Investment</button>
+            </div>
+
+            <!-- Premium Plan -->
+            <div class="epg_inv_x8k2_plan_card" data-plan="premium">
+                <div class="epg_inv_x8k2_plan_header">
+                    <span class="epg_inv_x8k2_plan_badge">Premium plan</span>
+                    <h3 class="epg_inv_x8k2_plan_title">Elite Trading</h3>
+                    <div class="epg_inv_x8k2_plan_range">
+                        <span class="epg_inv_x8k2_range_label">Investment Range</span>
+                        <span class="epg_inv_x8k2_range_value">$3,000 - $9,999</span>
+                    </div>
+                </div>
+                <div class="epg_inv_x8k2_plan_features">
+                    <div class="epg_inv_x8k2_feature">
+                        <i class="fas fa-chart-line"></i>
+                        <span>Daily Profit: 65%</span>
+                    </div>
+                    <div class="epg_inv_x8k2_feature">
+                        <i class="fas fa-clock"></i>
+                        <span>Duration: 48 hours</span>
+                    </div>
+                    <div class="epg_inv_x8k2_feature">
+                        <i class="fas fa-gift"></i>
+                        <span>Referral Bonus: 60%</span>
+                    </div>
+                </div>
+                <div class="epg_inv_x8k2_calculator">
+                    <input type="number" class="epg_inv_x8k2_calc_input" placeholder="Enter amount" min="5000" max="20000">
+                    <div class="epg_inv_x8k2_calc_result">
+                        <span>Potential Profit:</span>
+                        <span class="epg_inv_x8k2_profit_value">$0.00</span>
+                    </div>
+                </div>
+                <button class="epg_inv_x8k2_invest_btn">Start Investment</button>
+            </div>
+
+            <!-- Elite Plan -->
+            <div class="epg_inv_x8k2_plan_card" data-plan="elite">
+                <div class="epg_inv_x8k2_plan_header">
+                    <span class="epg_inv_x8k2_plan_badge">Elite plan</span>
+                    <h3 class="epg_inv_x8k2_plan_title">Professional Trading</h3>
+                    <div class="epg_inv_x8k2_plan_range">
+                        <span class="epg_inv_x8k2_range_label">Investment Range</span>
+                        <span class="epg_inv_x8k2_range_value">$10,000 - $100,000</span>
+                    </div>
+                </div>
+                <div class="epg_inv_x8k2_plan_features">
+                    <div class="epg_inv_x8k2_feature">
+                        <i class="fas fa-chart-line"></i>
+                        <span>Daily Profit: 80%</span>
+                    </div>
+                    <div class="epg_inv_x8k2_feature">
+                        <i class="fas fa-clock"></i>
+                        <span>Duration: 48 hours</span>
+                    </div>
+                    <div class="epg_inv_x8k2_feature">
+                        <i class="fas fa-gift"></i>
+                        <span>Referral Bonus: 72%</span>
+                    </div>
+                </div>
+                <div class="epg_inv_x8k2_calculator">
+                    <input type="number" class="epg_inv_x8k2_calc_input" placeholder="Enter amount" min="20000" max="100000">
+                    <div class="epg_inv_x8k2_calc_result">
+                        <span>Potential Profit:</span>
+                        <span class="epg_inv_x8k2_profit_value">$0.00</span>
+                    </div>
+                </div>
+                <button class="epg_inv_x8k2_invest_btn">Start Investment</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+    <section class="epg-trading-features">
+        <div class="epg-features-container">
+            <div class="epg-features-header">
+                <h2>Experience Next-Gen Trading</h2>
+                <div class="epg-market-pulse">
+                    <div class="epg-pulse-dot"></div>
+                    <span>Market Live</span>
+                </div>
+            </div>
+
+            <div class="epg-features-grid">
+                <!-- Advanced Trading Card -->
+                <div class="epg-feature-card" data-tilt>
+                    <div class="epg-card-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Advanced Trading</h3>
+                    <div class="epg-live-chart">
+                        <canvas id="epg-mini-chart"></canvas>
+                    </div>
+                    <ul class="epg-feature-list">
+                        <li>Real-time Analysis</li>
+                        <li>Smart Predictions</li>
+                        <li>Risk Management</li>
+                    </ul>
+                </div>
+
+                <!-- AI Assistant Card -->
+                <div class="epg-feature-card" data-tilt>
+                    <div class="epg-card-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>AI Trading Assistant</h3>
+                    <div class="epg-ai-chat">
+                        <div class="epg-chat-bubble">Market analysis ready</div>
+                        <div class="epg-chat-bubble">Signals detected</div>
+                    </div>
+                    <div class="epg-accuracy">
+                        <div class="epg-accuracy-bar" style="width: 94%"></div>
+                        <span>94% Accuracy</span>
+                    </div>
+                </div>
+
+                <!-- Security Card -->
+                <div class="epg-feature-card" data-tilt>
+                    <div class="epg-card-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Bank-Grade Security</h3>
+                    <div class="epg-security-shield">
+                        <div class="epg-shield-pulse"></div>
+                    </div>
+                    <div class="epg-security-stats">
+                        <div class="epg-stat">
+                            <span>256-bit</span>
+                            <small>Encryption</small>
+                        </div>
+                        <div class="epg-stat">
+                            <span>24/7</span>
+                            <small>Monitoring</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Global Markets Card -->
+                <div class="epg-feature-card" data-tilt>
+                    <div class="epg-card-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Global Markets</h3>
+                    <div class="epg-market-grid">
+                        <div class="epg-market-item">
+                            <span>Forex</span>
+                            <div class="epg-market-bar"></div>
+                        </div>
+                        <div class="epg-market-item">
+                            <span>Crypto</span>
+                            <div class="epg-market-bar"></div>
+                        </div>
+                        <div class="epg-market-item">
+                            <span>Stocks</span>
+                            <div class="epg-market-bar"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <footer class="epg_trade_x7f9_footer_container">
+        <div class="epg_trade_x7f9_wave_element">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#0099ff" fill-opacity="0.2"
+                    d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,154.7C960,171,1056,181,1152,165.3C1248,149,1344,107,1392,85.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                </path>
+            </svg>
+        </div>
+
+        <div class="epg_trade_x7f9_content_wrapper">
+            <div class="epg_trade_x7f9_company_section">
+                <div class="epg_trade_x7f9_logo_wrapper">
+                    <img src="logo.png" alt="Logo" class="epg_trade_x7f9_logo_image">
+                    <div class="epg_trade_x7f9_logo_glow_effect"></div>
+                </div>
+                <h3 class="epg_trade_x7f9_company_title">Elivate Prime Group</h3>
+                <p class="epg_trade_x7f9_company_slogan">Empowering Your Financial Journey</p>
+            </div>
+
+            <div class="epg_trade_x7f9_grid_layout">
+                <div class="epg_trade_x7f9_quick_access_panel">
+                    <h4>Navigation Hub</h4>
+                    <a href="#">Trading Dashboard</a>
+                    <a href="#">Investment Portfolio</a>
+                    <a href="#">Market Analysis</a>
+                    <a href="#">Support Center</a>
+                </div>
+
+                <div class="epg_trade_x7f9_metrics_panel">
+                    <h4>Market Metrics</h4>
+                    <div class="epg_trade_x7f9_metric_item">
+                        <span class="epg_trade_x7f9_metric_label">Global Traders</span>
+                        <span class="epg_trade_x7f9_metric_value">75K+</span>
+                    </div>
+                    <div class="epg_trade_x7f9_metric_item">
+                        <span class="epg_trade_x7f9_metric_label">Trading Volume</span>
+                        <span class="epg_trade_x7f9_metric_value">$3.8M</span>
+                    </div>
+                </div>
+
+                <div class="epg_trade_x7f9_contact_panel">
+                    <h4>Connect With Us</h4>
+                    <div class="epg_trade_x7f9_contact_item">
+                        <i class="fas fa-envelope"></i>
+                        <span>tradingsupport@epgroup.com</span>
+                    </div>
+                    <div class="epg_trade_x7f9_contact_item">
+                        <i class="fas fa-phone"></i>
+                        <span>+1 888 EPG TRADE</span>
+                    </div>
+                       <a href="/whatsapp" class="epg_trade_x7f9_contact_item">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <span>+1 888 EPG TRADE</span>
+                       </a>
+                </div>
+            </div>
+
+            <div class="epg_trade_x7f9_footer_base">
+                <div class="epg_trade_x7f9_social_container">
+                    <a href="#" class="epg_trade_x7f9_social_link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="epg_trade_x7f9_social_link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="epg_trade_x7f9_social_link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="epg_trade_x7f9_social_link"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <p class="epg_trade_x7f9_copyright_text">© 2024 Elivate Prime Group. Secure Trading Solutions.</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+</body>
+
+</html>
